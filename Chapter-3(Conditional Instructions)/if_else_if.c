@@ -35,10 +35,7 @@ int main()
 
     int month = 9, day = 25, year = 2015;
 
-    struct if_else_if
-    {
-        /* data */
-    };
+    
     
 
     return 0;
