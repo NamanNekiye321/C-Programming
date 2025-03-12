@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 
     int rating;
-    
+
     printf("Please Enter your rating:\n");
-    scanf("%d",&rating);
+    scanf("%d", &rating);
 
     switch (rating)
     {
@@ -24,17 +25,11 @@ int main() {
     case 5:
         printf("Thank for 5 Rating\n");
         break;
-    
+
     default:
         printf("Invalid");
         break;
     }
-    
-
-
-
-
-
 
     return 0;
 }
